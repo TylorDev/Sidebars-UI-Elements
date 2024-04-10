@@ -1,0 +1,63 @@
+.contenido {
+    display: flex;
+    flex-direction: column;
+
+
+    margin: 0.5rem 0;
+    transition: transform 0.2s;
+    transform: scaleY(1);
+    transform-origin: top center;
+    margin-left: 0.8rem;
+    border-left: 1px solid rgb(58, 58, 58);
+
+
+
+
+    svg {
+        position: absolute;
+        fill: none;
+    }
+
+
+
+
+
+}
+
+.oculto {
+    transform: scaleY(0);
+}
+
+.desplegable {
+    width: 100%;
+
+    color: white;
+}
+
+.btn-desplegable {
+
+    color: #818183;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.4rem;
+    font-size: 0.6rem;
+    background: transparent;
+    outline: none;
+    border: none;
+    text-align: start;
+    border-radius: 5px;
+
+    padding: 0.5rem;
+
+
+    &:hover {
+        color: white;
+        background-color: #333437;
+        outline: 2px solid #3F3F42;
+    }
+
+
+
+}
